@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$USER_HOME$/.Rider2019.2/system/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/.Rider2019.2/system/resharper-host/local/Transient/ReSharperHost/v192/SolutionCaches/_HelpfulThings.Tooling.MemoryWindow.123529443.00" t="ExcludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="HelpfulThings.Tooling.MemoryWindow" t="IncludeRecursive">
+        <e p="HelpfulThings.Tooling.MemoryWindow.csproj" t="IncludeRecursive" />
+        <e p="MemoryCursor.cs" t="Include" />
+        <e p="MemorySlice.cs" t="Include" />
+        <e p="MemoryWindow.cs" t="Include" />
+        <e p="NugetSupport" t="Include">
+          <e p="LICENSE" t="Include" />
+          <e p="icon.png" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.1" t="Include">
+              <e p="HelpfulThings.Tooling.MemoryWindow.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="HelpfulThings.Tooling.MemoryWindow.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>

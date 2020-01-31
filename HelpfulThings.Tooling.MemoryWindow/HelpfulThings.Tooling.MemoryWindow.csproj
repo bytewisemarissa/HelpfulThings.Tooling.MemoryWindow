@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <AssemblyName>HelpfulThings.Tooling.MemoryWindow</AssemblyName>
+    <RootNamespace>HelpfulThings.Tooling.MemoryWindow</RootNamespace>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Title>Helpful Things Large Byte Array Tooling</Title>
+    <Description>Tooling for dealing with large byte arrays.</Description>
+    <Authors>Marissa</Authors>
+    <Copyright>2020</Copyright>
+    <PackageProjectUrl>https://github.com/bytewisemarissa/HelpfulThings.Tooling.MemoryWindow</PackageProjectUrl>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageIcon>icon.png</PackageIcon>
+    <PackageIconUrl>https://i.imgur.com/qLyye40.png</PackageIconUrl>
+    <RepositoryUrl>https://github.com/bytewisemarissa/HelpfulThings.Tooling.MemoryWindow.git</RepositoryUrl>
+    <RepositoryType>Github</RepositoryType>
+    <PackageVersion>1.1.0</PackageVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="NugetSupport" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NugetSupport\icon.png" Pack="true" PackagePath="$(PackageIcon)" />
+    <None Include="NugetSupport\LICENSE" Pack="true" PackagePath="$(PackageLicenceFile)" />
+  </ItemGroup>
+</Project>

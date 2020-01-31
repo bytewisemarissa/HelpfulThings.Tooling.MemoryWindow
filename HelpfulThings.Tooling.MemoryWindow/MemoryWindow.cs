@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace HelpfulThings.MemoryWindow
+namespace HelpfulThings.Tooling.MemoryWindow
 {
     public class MemoryWindow
     {
